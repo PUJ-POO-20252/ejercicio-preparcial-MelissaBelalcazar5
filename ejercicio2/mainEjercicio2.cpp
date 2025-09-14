@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void ejercicio2() {
     int edad,
     total = 0,
     jovenes = 0,
@@ -41,5 +41,5 @@ int main() {
     cout << "total de jovenes entre loz 18 a 25: " << jovenes << endl;
     cout << "total calificaciones perfectas: " << perfectos << endl;
 
-    return 0;
+    return;
 }

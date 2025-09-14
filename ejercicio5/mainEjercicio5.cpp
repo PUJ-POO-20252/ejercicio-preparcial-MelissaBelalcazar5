@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+void ejercicio5() {
     string palabra;
     cout << "por favor ingrese una palabra: ";
     cin >> palabra;
@@ -32,5 +32,5 @@ int main() {
         cout << "todos los caracteres se repiten" << endl;
     }
 
-    return 0;
+    return;
 }

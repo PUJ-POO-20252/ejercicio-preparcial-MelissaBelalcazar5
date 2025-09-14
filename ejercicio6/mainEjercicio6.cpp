@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void ejercicio6() {
     int n;
     cout << "por favor la cantidad de terminos: ";
     cin >> n;
@@ -23,5 +23,5 @@ int main() {
     }
 
     cout << endl;
-    return 0;
+    return;
 }

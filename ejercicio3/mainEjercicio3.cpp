@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void ejercicio3() {
     int n, num, anterior;
     bool ascedente = true;
 
@@ -34,5 +34,5 @@ int main() {
         }
     }
 
-    return 0;
+    return;
 }

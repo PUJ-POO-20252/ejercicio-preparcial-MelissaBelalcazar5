@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void ejercicio4() {
     float precio, total;
     int cantidad;
 
@@ -30,5 +30,5 @@ int main() {
 
     cout << "total a pagar: " << total << endl;
 
-    return 0;
+    return;
 }

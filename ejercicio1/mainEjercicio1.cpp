@@ -6,7 +6,7 @@
 using namespace std; //profe esto lo pongo para cada que tengo que imprimir datos
 //o leer datos y imprimir cualquier cosa no tenga que estar poniendo std::cout o std::cin siempre
 
-int main() {
+ void ejercicio1() {
     float nota,
     suma = 0;
     int aprobados = 0,
@@ -36,5 +36,5 @@ int main() {
     cout << "estudiantes excelentes: " << excelentes << endl;
     cout << "promedio calificaciones del curso: " << promedio << endl;
 
-    return 0;
+    return;
 }
